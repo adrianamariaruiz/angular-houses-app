@@ -18,7 +18,7 @@
   margin-bottom: 15px;
 }
 .listing-features > .section-heading {
-  color: var(--secondary-color);
+  color: #605DC8;
   font-size: 24pt;
   margin-bottom: 15px;
 }
@@ -39,7 +39,7 @@ label, input {
   display: block;
 }
 label {
-  color: var(--secondary-color);
+  color: #605DC8;
   font-weight: bold;
   text-transform: uppercase;
   font-size: 12pt;
@@ -53,6 +53,19 @@ input {
   border-right: none;
   border-left: none;
   border-bottom: solid .3px;
+}
+button {
+  padding: 10px;
+  border: solid 1px #605DC8;
+  background: #605DC8;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+
+  &:hover{
+    background: #504cc7;
+    box-shadow: 2px 2px 2px #615dc8a9;
+  }
 }
 @media (max-width: 1024px) {
   .listing-photo {
